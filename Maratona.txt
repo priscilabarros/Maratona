@@ -2,15 +2,16 @@ Exercícios para Maratona de programação:
 
 Resposta em progresso:
 
+lista = []
 aux = 1
-numero = int(input())
-listaNumeros = {}
 
 while aux != 0:
-    if numero != 42 :
-        listaNumeros.append(numero)
-        numero = int(input())
+    numero = int(input())
+
+    if numero != 42:
+        lista.append(numero)
     else:
         aux = 0
 
-print(listaNumeros)
+for i in lista:
+    print(i)
